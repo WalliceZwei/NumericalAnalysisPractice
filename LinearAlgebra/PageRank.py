@@ -44,6 +44,7 @@ class PageRank:
         vec = RayleighQuotientIteration(new_matr, self.original_vec, 100)[1]
         return vec / np.sum(vec)
 
+
 # Quick Page Rank Tests
 
 Google = PageRank(4)
